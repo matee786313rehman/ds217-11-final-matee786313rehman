@@ -108,7 +108,7 @@ and between Air Temperature and its 24-hour rolling average (r = 0.97).
 Humidity was negatively correlated with temperature difference (r = -0.71),  
 indicating that humid conditions correspond to smaller temperature spreads.
 
-![Figure: Seasonal Temperature Trends](output/q5_patterns.png)
+![Figure: Seasonal Temperature Trends](q5_patterns.png)
 *Figure: Seasonal temperature fluctuations across multiple years show clear periodic behavior.*
 
 **Artifacts:**  
@@ -213,19 +213,19 @@ The Random Forest’s predictions closely matched the actual test-set temperatur
 # Visualizations
 
 ### Figure 1 — Initial Exploration
-![Figure 1](output/q1_visualizations.png)  
+![Figure 1](q1_visualizations.png)  
 *Distribution and early time-series overview of core weather variables.*
 
 ### Figure 2 — Seasonal & Diurnal Patterns + Correlation Heatmap
-![Figure 2](output/q5_patterns.png)  
+![Figure 2](q5_patterns.png)  
 *Daily, seasonal, and correlation patterns across weather variables.*
 
 ### Figure 3 — Actual vs Predicted Temperatures
-![Figure 3](output/q8_final_visualizations.png)  
+![Figure 3](q8_final_visualizations.png)  
 *Random Forest captures the observed time series with high fidelity.*
 
 ### Supplemetal Figure 1 — Residuals
-![Figure 3](output/q8_residuals.png)
+![Figure 3](q8_residuals.png)
 ---
 
 # Model Results Summary
