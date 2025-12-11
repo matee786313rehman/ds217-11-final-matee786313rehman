@@ -1,0 +1,20 @@
+KEY PATTERNS IDENTIFIED
+======================
+
+TEMPORAL TRENDS:
+- Air Temperature shows clear annual cycles with peaks each summer (June–August) and troughs each winter (December–February)
+- Overall trend is stable with no long-term warming or cooling pattern over the observed years
+- Wet Bulb Temperature closely follows Air Temperature with slightly lower magnitude
+
+SEASONAL & DAILY PATTERNS:
+- Distinct seasonal variation is visible in yearly cycles
+- Higher daytime temperatures observed compared to night periods (diurnal cycle)
+- Maximum air temperature typically occurs around 2–3 PM; minimum around 5–6 AM
+
+CORRELATIONS:
+- Air Temperature vs Wet Bulb Temperature: 0.979 (very strong positive correlation)
+- Air Temperature vs Rolling 24h Mean Air Temperature: 0.977 (very strong correlation indicating smooth temporal dependence)
+- Wind Speed vs Maximum Wind Speed: 0.344 (moderate positive correlation)
+- Air Temperature vs Wind Speed: -0.229 (moderate negative correlation)
+- Air Temperature vs Barometric Pressure: -0.167 (weak negative correlation)
+- Humidity vs Temperature Difference: -0.707 (strong negative correlation)

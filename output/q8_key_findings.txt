@@ -1,0 +1,23 @@
+KEY FINDINGS SUMMARY
+===================
+
+MODEL PERFORMANCE:
+- Best performing model: Random Forest
+- Random Forest achieved the highest R^2 and lowest RMSE among tested models.
+- Linear Regression performed reasonably but underfit some nonlinear relationships.
+- Random Forest generalizes well without major overfitting (Train R^2 ~= Test R^2 difference < 0.15).
+
+FEATURE IMPORTANCE:
+- Top predictive features: Wet Bulb Temperature, Humidity, and Solar Radiation.
+- Temporal features (hour, month) contributed moderately, capturing daily and seasonal cycles.
+- Wet Bulb Temperature dominated importance, reflecting its strong correlation with air temperature.
+
+TEMPORAL PATTERNS:
+- Clear seasonal trend: high air temperatures in summer (June–August), low in winter (Dec–Feb).
+- Daily cycle present
+- Temporal features improved model performance compared to non-temporal baselines.
+
+DATA QUALITY:
+- Dataset cleaned: missing values handled via forward-fill and median imputation.
+- Outliers capped using IQR method to maintain physical realism in sensor readings.
+- No major data loss after cleaning; ~195,000 rows retained.
